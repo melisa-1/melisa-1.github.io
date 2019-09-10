@@ -776,16 +776,26 @@ header .container-fluid {
   .cliente-item {
     padding: 0;
   }
+
+  #clients .content-box {
+    padding: 8rem 0 5rem 0;
+  }
 }
 
 #clients .container {
-  margin-bottom: 7rem;
+  margin-bottom: 13rem;
 }
 
 
 /* Contact */
 .container-fluid-contact {
   padding: 5.54% 8%;
+}
+
+@media (max-width: 768px) {
+  .container-fluid-contact {
+    padding: 13rem 8%;
+  }
 }
 
 .form-shadow-wrapper {
