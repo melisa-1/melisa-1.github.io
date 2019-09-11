@@ -484,7 +484,7 @@ header .container-fluid {
 @media (max-width: 660px) {
 
   .about-item-description p {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -589,6 +589,12 @@ header .container-fluid {
 #products .img-wrapper {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .mode-rp {
+    max-width: 25rem;
+  }
 }
 
 .producto-item-title {
@@ -896,7 +902,7 @@ header .container-fluid {
 
 @media (max-width: 768px) {
   .ct-contact-info-header {
-    padding: 2.9rem 3rem;
+    padding: 2.9rem 2rem;
   }
 
   .ct-contact-info-header .contact-info-text {
