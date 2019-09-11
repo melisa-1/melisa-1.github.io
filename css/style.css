@@ -78,7 +78,7 @@ h1 {
 
 @media (max-width:768px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -222,7 +222,7 @@ img {
   }
 
   .home-content-box {
-    padding: 8rem;
+    padding: 3rem;
   }
 }
 
@@ -271,7 +271,7 @@ header .container-fluid {
   padding: .2rem 0;
 }
 
-@media (max-width: 991px) and (min-width: 500px) {
+@media (max-width: 991px) {
   .navbar {
     background-color: #f4f5f6;
   }
@@ -436,9 +436,15 @@ header .container-fluid {
 }
 
 #about .container-fluid h3 {
-  font-size: 1.8em;
+  font-size: 2.9rem;
   color: var(--primaryColor);
   padding-top: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  #about .container-fluid h3 {
+    font-size: 2.1rem;
+  }
 }
 
 .content-box {
@@ -513,7 +519,14 @@ header .container-fluid {
 }
 
 .box-title {
-  font-size: 1.5em;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .box-title {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
 }
 
 .bg-color {
@@ -534,12 +547,18 @@ header .container-fluid {
 /* Products*/
 
 .title {
-  font-size: 2.2em;
+  font-size: 3.2rem;
   font-weight: 800;
   text-transform: uppercase;
   color: var(--primaryColor);
   text-align: center;
   margin: 1rem 0 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.7rem;
+  }
 }
 
 .content-title-underline {
@@ -636,7 +655,8 @@ header .container-fluid {
   font-weight: 800;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
+
 }
 
 #stats-info .feature-inner {
@@ -653,7 +673,7 @@ header .container-fluid {
 @media (max-width: 768px) {
   #stats-info .content-title h3 {
     font-size: 2.2rem;
-    letter-spacing: 1.1;
+    letter-spacing: .1rem;
     margin: 0;
   }
 }
@@ -667,6 +687,14 @@ header .container-fluid {
   #stats-info .content-title p {
     font-size: 1.6rem;
   }
+
+  @media (max-width: 768px) {
+    #stats-info .content-title p {
+      font-size: 1.4rem;
+    }
+
+  }
+
 
   #stats-info .feature-inner,
   #stats-info .content-title-estats {
@@ -767,6 +795,12 @@ header .container-fluid {
   margin-top: 2.5rem;
 }
 
+@media (max-width: 768px) {
+  #customer-service-stats .content-title h3 {
+    font-size: 2.5rem;
+  }
+}
+
 #customer-service-stats .wrapp-estats {
   margin-top: 1.9rem;
 }
@@ -848,24 +882,34 @@ header .container-fluid {
   padding: 6rem 4rem;
 }
 
-.ct-contact-info-header span {
+.ct-contact-info-header .contact-info-text {
   color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6rem;
 }
 
 .ct-contact-info-header h3 {
   margin: .8rem 0 0;
   font-size: 2.6rem;
   color: #fff;
+  letter-spacing: .1rem;
 }
 
 @media (max-width: 768px) {
   .ct-contact-info-header {
-    padding: 4.6rem 4rem;
+    padding: 2.9rem 4rem;
+  }
+
+  .ct-contact-info-header .contact-info-text {
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .ct-contact-info-header h3 {
     font-size: 2rem;
+    text-align: center;
+
   }
+
 }
 
 
