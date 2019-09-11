@@ -55,7 +55,7 @@ $(function () {
     responsive: {
       // breakpoint from 0 up
       0: {
-        items: 1
+        items: 2
       },
       // breakpoint from 480 up
       480: {
